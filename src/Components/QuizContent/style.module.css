@@ -2,3 +2,11 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.content_body {
+  margin: 20px 0;
+}
+
+.content_body_line {
+  margin-bottom: 10px;
+}

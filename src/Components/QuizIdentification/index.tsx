@@ -13,7 +13,12 @@ export default function QuizIdentification() {
             <TextField id="name" label="Qual seu nome?" fullWidth />
           </Grid>
           <Grid item xs={12} sm={4}>
-            <TextField id="date" label="Data" fullWidth />
+            <TextField
+              fullWidth
+              label="Data"
+              type="date"
+              InputLabelProps={{ shrink: true }}
+            />
           </Grid>
         </Grid>
       </Box>
