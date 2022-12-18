@@ -1,6 +1,6 @@
-import { Question } from "../@types/questions.type";
+import { IQuestion } from "../@types/question.interface";
 
-export const questions: Question[] = [
+export const questions: IQuestion[] = [
   { id: 1, label: 'Corpo físico' },
   { id: 2, label: 'Finanças' },
   { id: 3, label: 'Profissional' },

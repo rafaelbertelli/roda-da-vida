@@ -2,20 +2,18 @@ import Grid from "@mui/material/Grid";
 import { TypographyVariant } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import { ReactElement } from "react";
-import { Question } from "../../@types/questions.type";
+import { IQuestion } from "../../@types/question.interface";
 import FormSelect from "../FormSelect";
 
-interface FormQuestionProps {
-  question: Question;
+interface IFormQuestionProps {
+  question: IQuestion;
   variant: TypographyVariant;
 }
 
 export default function FormQuestion(
-  props: FormQuestionProps,
+  props: IFormQuestionProps,
   children?: ReactElement
 ) {
-  console.log("==========", props);
-
   return (
     <Grid container spacing={2} alignItems="center">
       <Grid item xs={6}>
