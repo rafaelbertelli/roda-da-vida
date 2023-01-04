@@ -1,8 +1,8 @@
 import Grid from "@mui/material/Grid";
-import Chart from "../../Components/Chart";
-import QuizContent from "../../Components/QuizContent";
-import QuizDescription from "../../Components/QuizDescription";
-import QuizIdentification from "../../Components/QuizIdentification";
+import Chart from "../../components/Chart";
+import QuizContent from "../../components/QuizContent";
+import QuizDescription from "../../components/QuizDescription";
+import QuizIdentification from "../../components/QuizIdentification";
 
 import style from "./style.module.css";
 
